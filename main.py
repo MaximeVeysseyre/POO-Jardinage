@@ -10,4 +10,4 @@ gardener.add(Tomato())
 onion = Onion() 
 onion.plant(8) 
 gardener.add(onion) 
-print(gardener.seed)            # Il doit afficher 8
+print(gardener.seed)  

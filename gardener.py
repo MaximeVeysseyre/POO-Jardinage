@@ -9,9 +9,10 @@ class Gardener():
     def __init__(self, seed_number=0):
         self.seed = seed_number
     
-    def _choisir(self, cls):
-        return cls
+    def _choose(self, class):
+        return class
 
-    def add(self, cls):
-        self._choisir(cls)
-        self.seed =+ cls.seed
+    def add(self, class):
+        self._choose(class)
+        self.seed =+ class.seed
+
