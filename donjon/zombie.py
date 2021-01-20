@@ -1,5 +1,6 @@
 from monstre import Monstre
 
+
 class Zombie(Monstre):
 
     def ajouter_monstre(self, nombre_zombie):

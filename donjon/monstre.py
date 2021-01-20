@@ -1,5 +1,6 @@
 from abc import abstractmethod, ABC
 
+
 class Monstre(ABC):
 
     def __init__(self, nombre_monstre=0):

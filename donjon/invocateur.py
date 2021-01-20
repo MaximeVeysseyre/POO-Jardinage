@@ -2,6 +2,7 @@ from zombie import Zombie
 from squelette import Squelette
 from vampire import Vampire
 
+
 class Invocateur():
 
     def __init__(self):

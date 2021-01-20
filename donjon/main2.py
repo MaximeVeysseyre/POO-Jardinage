@@ -19,5 +19,10 @@ invocateur.creation_monstre('Zombie')
 
 donjon.creation_invocateur()
 donjon.invocateur_ajoute_monstre('Zombie',15)
-donjon.invocateur_ajoute_monstre('Zombie',15)
+donjon.invocateur_ajoute_monstre('Vampire',12)
 donjon.invocateur_ajoute_monstre('Squelette',1)
+
+
+donjon.afficher_compteur_par_type()
+
+
