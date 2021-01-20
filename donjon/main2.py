@@ -24,5 +24,3 @@ donjon.invocateur_ajoute_monstre('Squelette',1)
 
 
 donjon.afficher_compteur_par_type()
-
-
