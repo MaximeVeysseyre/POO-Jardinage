@@ -20,7 +20,7 @@ gardener.create_vegetable('Tomato')
 garden.create_gardener()
 garden.gardener_add_vegetable('Tomato',15)
 garden.gardener_add_vegetable('Onion',12)
-garden.gardener_add_vegetable('Squelette',1)
+garden.gardener_add_vegetable('Carrot',1)
 
 
 garden.display_type_counter()
