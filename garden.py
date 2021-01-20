@@ -14,7 +14,7 @@ class Garden():
     def add_vegetable_bag(self, vegetable_bag):
         self.vegetable_list.append(vegetable_bag)
         self.number_vegetable_garden += vegetable_bag.vegetable_number
-        print (f"You added a bag from {vegetable_bag.vegetable_number} {vegetable_bag} to the garden!")
+        print (f"You added a bag of {vegetable_bag.vegetable_number} {vegetable_bag} to the garden!")
 
     def display_vegetable_number(self):
         print (f"There are {str (self.number_vegetable_garden)} vegetables in the garden!")
